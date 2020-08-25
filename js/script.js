@@ -57,9 +57,6 @@ function dispQues(no, width) {
 let qno = [];
 let mcq = [];
 let msq = [];
-// for (var i = 0; i < question.length; i++) {
-
-// }
 
 
 $.each(question, (key, _val) => {
@@ -75,7 +72,6 @@ function shuffleQuenstionNo() {
     mcq.sort(() => Math.random() - 0.5);
     msq.sort(() => Math.random() - 0.5);
     qno = mcq.concat(msq);
-    console.log(qno);
 }
 
 
