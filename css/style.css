@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(to bottom right, #e66465, #9198e5);
+    font-size:20px;
+}
+.progress-bar{
+    background: linear-gradient(to bottom right,#9198e5, #e66465);
+}
+.bg-danger{
+    background:#fd3643!important;
+}
+.btn-primary{
+    background: linear-gradient(to bottom right, #9198e5, #803bda);
+    outline:none;
+    border: none;
+    border-radius: 50px;
+}
+.btn-primary:hover{
+    background: linear-gradient(to bottom right, #803bda, #9198e5);
+}
+.btn-success{
+    background: linear-gradient(to bottom right, #36cf3e, #28a745);
+    outline:none;
+    border: none;
+    border-radius: 50px;
+}
+.btn-success:focus,.btn-primary:focus{
+    outline:none;
+    border: none;
+}
+.btn-success:hover{
+    background: linear-gradient(to bottom right, #28a745 , #36cf3e);
+}
+.inputOptionField{
+    cursor: pointer;
+    margin: 0 0 15px 0;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) ;
+    transition: all 0.3s ease;
+}
+.inputOptionField:hover{
+    box-shadow: none ;
+    background: #e9e7ef;
+}
+.inputOptionField label{
+    padding:15px 30px;
+    display: block;
+}
+.inputOptionField input{
+    margin-left:0PX;
+    margin-top:0px;
+}
+.inputOptionField label:hover{
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+    padding: 15px 30px;
+    margin: 0 0 10px 0;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) ;
+}
+
+
+h3 span {
+    background: #f5f5f5;
+    border: 1px solid #e9e7ef;
+    border-left: 3px solid #f2334c;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 100%!important;
+    overflow: auto;
+    padding: 0.5em 1.5em;
+    display: block;
+    word-wrap: break-word;
+  }
